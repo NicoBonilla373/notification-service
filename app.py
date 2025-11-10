@@ -12,12 +12,7 @@ def notify():
     telefono = data.get('telefono')
     created_at = data.get('created_at')
 
-    # Simulación de envío de correo o log
     print(f"[NOTIFICACIÓN] Usuario registrado: {nombre} | {email} | {telefono} | {created_at}")
-
-    # Opcional: envío real de correo
-    # send_email(nombre, email)
-
     return jsonify({'message': f'Notificación recibida para {nombre}'}), 200
 
 
@@ -38,6 +33,9 @@ def send_email(nombre, email):
     except Exception as e:
         print(f"[ERROR] No se pudo enviar el correo: {e}")
 
+@app.route("/health", methods=["GET"])
+def health():
+	return {"status": "ok"}, 200
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)

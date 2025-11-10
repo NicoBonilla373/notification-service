@@ -1,0 +1,49 @@
+{
+    "repositories": [
+        {
+            "repositoryArn": "arn:aws:ecr:us-east-1:158102471339:repository/users-frontend",
+            "registryId": "158102471339",
+            "repositoryName": "users-frontend",
+            "repositoryUri": "158102471339.dkr.ecr.us-east-1.amazonaws.com/users-frontend",
+            "createdAt": "2025-11-05T01:21:31.798000+00:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "KMS",
+                "kmsKey": "arn:aws:kms:us-east-1:158102471339:key/87d73dc2-fd5d-4623-9bb6-dcdda6211808"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:us-east-1:158102471339:repository/notification-service",
+            "registryId": "158102471339",
+            "repositoryName": "notification-service",
+            "repositoryUri": "158102471339.dkr.ecr.us-east-1.amazonaws.com/notification-service",
+            "createdAt": "2025-11-06T21:45:33.921000+00:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "KMS",
+                "kmsKey": "arn:aws:kms:us-east-1:158102471339:key/87d73dc2-fd5d-4623-9bb6-dcdda6211808"
+            }
+        },
+        {
+            "repositoryArn": "arn:aws:ecr:us-east-1:158102471339:repository/users-backend",
+            "registryId": "158102471339",
+            "repositoryName": "users-backend",
+            "repositoryUri": "158102471339.dkr.ecr.us-east-1.amazonaws.com/users-backend",
+            "createdAt": "2025-11-05T01:21:18.929000+00:00",
+            "imageTagMutability": "MUTABLE",
+            "imageScanningConfiguration": {
+                "scanOnPush": false
+            },
+            "encryptionConfiguration": {
+                "encryptionType": "KMS",
+                "kmsKey": "arn:aws:kms:us-east-1:158102471339:key/87d73dc2-fd5d-4623-9bb6-dcdda6211808"
+            }
+        }
+    ]
+}
