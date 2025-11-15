@@ -1,17 +1,36 @@
-# Archivos de Python
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Entorno virtual
-.venv/
+*.py[cod]
+*$py.class
+*.so
+.Python
 env/
 venv/
+ENV/
 
-# Configuración sensible
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
 .env
+.env.local
+*.env
 
-# Archivos de sistema
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
+
+# SMTP credentials (NUNCA subir)
+smtp-credentials.txt
+credentials.txt
+*.pem
