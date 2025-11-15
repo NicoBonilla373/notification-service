@@ -1,36 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
+# Secrets (NUNCA subir)
+*-secret*.yaml
+secrets/
 
-# Flask
-instance/
-.webassets-cache
-
-# Environment variables
-.env
-.env.local
+# Credentials
 *.env
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# SMTP credentials (NUNCA subir)
-smtp-credentials.txt
 credentials.txt
-*.pem
+
+# Temporary files
+*.tmp
+*.swp
+*~
